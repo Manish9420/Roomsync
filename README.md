@@ -68,10 +68,6 @@ DATABASE_URL="postgresql://postgres.jgywafcxeymaaymsaewp:eAgdk51tWI8DiqcD@aws-1-
 DIRECT_URL="postgresql://postgres.jgywafcxeymaaymsaewp:eAgdk51tWI8DiqcD@aws-1-ap-south-1.pooler.supabase.com:5432/postgres"
 ```
 
-Replace the placeholders with your own PostgreSQL connection strings from Supabase.
-
-**Important:** Never commit your `.env` file or expose database credentials publicly.
-
 ### 4. Generate Prisma Client
 
 ```bash
